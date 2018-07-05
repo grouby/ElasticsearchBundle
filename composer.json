@@ -1,6 +1,6 @@
 {
-    "name": "ongr/elasticsearch-bundle",
-    "description": "Elasticsearch bundle for Symfony.",
+    "name": "gbourgeat/elasticsearch-bundle",
+    "description": "Elasticsearch bundle for Symfony. (for php7.2)",
     "type": "symfony-bundle",
     "homepage": "http://ongr.io",
     "license": "MIT",
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6,<7.2",
+        "php": ">=5.6",
         "symfony/framework-bundle": "^2.8|^3.0",
         "symfony/console": "^2.8|^3.0",
         "symfony/stopwatch": "^2.8|^3.0",
