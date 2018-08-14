@@ -71,6 +71,10 @@ class Converter
 
         $object = $this->assignArrayToObject($rawData, new $metadata['namespace'](), $metadata['aliases']);
 
+        if (array_key_exists('highlight', $rawData) && method_exists($object, 'setHighlight')) {
+            $object->setHighlight($rawData['highlight']);
+        }
+
         return $object;
     }
 
